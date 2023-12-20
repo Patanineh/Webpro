@@ -1,15 +1,29 @@
-li {
-    list-style-type: none; /*เอาจุดที่แสดงลำดับหน้าลิงค์ออก*/
-    display: inline-block; /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด*/
-    margin: 0 30px 0 0; /*ระยะห่างภายนอกขวา50*/
-}
-li a{
+
+a {
     cursor: pointer; /*เวลามาชี้เป็นรูปมือ*/
     text-decoration: none; /*ลบเส้นใต้ของลิงค์*/
+    list-style-type: none; /*เอาจุดที่แสดงลำดับหน้าลิงค์ออก*/
+    display: inline-block; /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด*/
+    margin: 0 30px 0 0; /*ระยะห่างภายนอกขวา30*/
 }
 
 p {
     text-indent: 55px; /*ย่อหน้า*/
     padding: 10px 80px; /*ระยะห่างบนล่าง10 ซ้ายขวา60*/
+}
 
+.big {
+    color: rgb(129, 68, 68);
+}
+
+#red {
+    color: red;
+}
+
+a:active {
+    color: rgb(138, 211, 116);
+}
+
+h1:first-letter {
+    font-size: 200%;
 }
