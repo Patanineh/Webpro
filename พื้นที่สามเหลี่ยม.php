@@ -3,9 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>พื้นที่สามเหลี่ยม</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
+    <center>
+    <a style="color: tomato;" href="Web.html">หน้าแรก</a>
+    <a href="Travel.html">Travel</a>
+    <a href="ประวัติส่วนตัว.php">ประวัติส่วนตัว</a>
+    <a href="การคำนวณ.php">การคำนวณ</a>
+    </center>
+
+    <hr width="70%"></hr>
+    <center>
     <table border = 1 width = "500">
         <?php
             $a = "ฐาน";
@@ -30,5 +40,6 @@
         </tr>
         <tr><th colspan="2"><a href="การคำนวณ.php">กลับ</a></th></tr>
     </table>
+    </center>
 </body>
 </html>

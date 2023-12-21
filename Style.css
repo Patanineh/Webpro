@@ -5,6 +5,7 @@ a {
     list-style-type: none; /*เอาจุดที่แสดงลำดับหน้าลิงค์ออก*/
     display: inline-block; /*เรียงกันแนวนอนและมีพื้นที่ด้านใน ตามที่เรากำหนด*/
     margin: 0 30px 0 0; /*ระยะห่างภายนอกขวา30*/
+    color: #be6d47;
 }
 
 p {
@@ -20,10 +21,19 @@ p {
     color: red;
 }
 
-a:active {
-    color: rgb(138, 211, 116);
+a:hover{
+    color: #b89e9e;
 }
 
 h1:first-letter {
     font-size: 200%;
+}
+
+#calcolor {
+    color: #3d66b4;
+}
+
+table, th, td {
+    color: rgb(62, 17, 167);
+    border: 1px solid rgb(20, 160, 66);
 }

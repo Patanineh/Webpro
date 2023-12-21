@@ -3,34 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>พื้นที่สามเหลี่ยมคางหมู</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-<table border = 1 width = "500">
+    <center>
+    <a style="color: tomato;" href="Web.html">หน้าแรก</a>
+    <a href="Travel.html">Travel</a>
+    <a href="ประวัติส่วนตัว.php">ประวัติส่วนตัว</a>
+    <a href="การคำนวณ.php">การคำนวณ</a>
+    </center>
+
+    <hr width="70%"></hr>
+    <center>
+    <table border = 1 width = "500">
         <?php
             $a = "สูง";
-            $b = "ด้านคู่ขนานบน";
-            $c = "พื้นที่สามเหลี่ยมคางหมู : 0.5*5*10*15";
-            $d = 5;
-            $e = 10;
-            $f = "คำนวณพื้นที่สามเหลี่ยมคางหมู";
-            $g = 0.5;
-            $h = "ด้านคู่ขนานล่าง";
-            $i = 15;
+            $b = "ผลบวกของด้านคู่ขนาน";
+            $c = "พื้นที่สามเหลี่ยมคางหมู : 0.5*5*25";
+            $d = 0.5;
+            $e = 5;
+            $f = 25;
+            $g = "คำนวณพื้นที่สามเหลี่ยมคางหมู";
         ?>
-        <tr><th colspan="2"><?php echo $f;?></th></tr>
+        <tr><th colspan="2"><?php echo $g;?></th></tr>
         <tr>
-            <td><?php echo $a;?></td><td><?php echo $d;?></td>
+            <td><?php echo $a;?></td><td><?php echo $e;?></td>
         </tr>
 
         <tr>
-            <td><?php echo $b;?></td><td><?php echo $e;?></td>
+            <td><?php echo $b;?></td><td><?php echo $f;?></td>
         </tr>
 
         <tr>
-            <td><?php echo $h;?></td><td><?php echo $i;?></td>
+            <td><?php echo $c;?></td><td><?php echo $d*$e*$f;?></td>
         </tr>
+
         <tr><th colspan="2"><a href="การคำนวณ.php">กลับ</a></th></tr>
     </table>
+    </center>
 </body>
 </html>
