@@ -8,7 +8,7 @@
 </head>
 <body>
     <center>
-        <a href="Web.html">หน้าแรก</a>
+        <a style="color: tomato;" href="Web.html">หน้าแรก</a>
         <a href="Travel.html">Travel</a>
         <a href="ประวัติส่วนตัว.php">ประวัติส่วนตัว</a>
         <a href="การคำนวณ.php">การคำนวณ</a>
