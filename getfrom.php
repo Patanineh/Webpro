@@ -12,7 +12,7 @@
     $number2 = $_GET['number2'];
     $operator = $_GET['operator'];
 
-    echo "<p>";
+    //echo "<p>";
     echo "<b>ข้อมูลผู้ใช้ใส่มา </b><br />";
    
     
