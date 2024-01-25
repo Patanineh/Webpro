@@ -10,10 +10,8 @@
     $num1 = $_GET['num1'];
     $num2 = $_GET['num2'];
     $num3 = $_GET['num3'];
-
     $sum = ($num1*12) - $num2 - $num3;
     echo "เงินได้สุทธิ : $sum" ,"<br>";
-
     if ($sum <= 150000) {
         echo "ได้รับการยกเว้น";
     }else if ($sum <= 300000){

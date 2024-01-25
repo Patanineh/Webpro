@@ -12,7 +12,7 @@
     function showraw($num) {
         for ($row = 1; $row <= $num; $row++) {
             echo "Row: $row ";
-            echo `<span style ="color : green">` . str_repeat("*", $row);
+            echo '<span style="color: green;">' . str_repeat("*", $row) . '</span>';
             echo "<br>";
         }
     }

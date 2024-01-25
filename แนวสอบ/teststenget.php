@@ -10,9 +10,8 @@
     $num1 = $_GET['num1'];
     $num2 = $_GET['num2'];
 
-    $sum = 0;
     $sumfinal = 0;
-    for ($num = 0; $num1 <= $num2; $num1++,$sum++) {
+    for ($num = 0; $num1 <= $num2; $num1++) {
         if(($num1 % 12)==0){
             $num++;
             $sumfinal = $num1;

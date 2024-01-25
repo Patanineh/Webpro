@@ -40,6 +40,5 @@
         <tr><th colspan="2"><a href="การคำนวณ.php">กลับ</a></th></tr>
     </table>
     </center>
-    
 </body>
 </html>
