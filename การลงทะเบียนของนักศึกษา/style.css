@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 50%; /* กำหนดความกว้างของตาราง */
+    margin: auto; /* ทำให้ตารางอยู่ตรงกลาง */
+    border: 1px solid #f09368bb; /* เพิ่มเส้นเดียวรอบตาราง */
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #f09368bb; /* เพิ่มเส้นเดียวด้านล่างของแต่ละเซลล์ */
+}
+tr:nth-child(even) {
+    background-color: #ffdd81bb; /* สีพื้นหลังสลับสี */
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+#b {
+    text-align: center;
+}
